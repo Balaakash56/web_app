@@ -1,0 +1,18 @@
+{
+  "name": "nodejs-webapp",
+  "version": "1.0.0",
+  "description": "A simple Node.js web application",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "build": "echo 'build step' && exit 0",
+    "test": "mocha --exit"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "mocha": "^9.0.0",
+    "chai": "^4.3.4"
+  }
+}
